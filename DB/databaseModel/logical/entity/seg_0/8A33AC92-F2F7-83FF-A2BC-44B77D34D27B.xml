@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A33AC92-F2F7-83FF-A2BC-44B77D34D27B" name="Users Types">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>00E37CF6-501B-5F47-E259-0800A5342540</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="type id" id="F8B46E69-A3D4-EDC2-13C6-98BFAA5D92A8">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>E21A07BE-F3AE-4D32-E4F9-FA34C879C168</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="C362149B-4117-0827-898A-C2EA006CE2B4">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>737138AA-5EC7-176D-AA1A-5978C26104BE</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68798FF5-0261-BB44-C647-71075DE6889C" name="Users Types PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>C9EFAA4F-8654-89EA-C482-2E1EB135E6CB</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F8B46E69-A3D4-EDC2-13C6-98BFAA5D92A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

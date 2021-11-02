@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF5910F9-3744-EB19-4C76-B233AD30CA89" name="Wine Recipe">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:57:24 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="quantity_of_sort" id="DF99C396-A7C4-7FD8-EE78-8E9B7EECC254">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:58:04 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_recipe_fk" id="7F9DD8C8-C754-B4EE-F707-2D98899BD4BF">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:58:38 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2DFFA72-787D-B370-777C-A99D7D9C1404" referredColumn="7DED1E7B-885E-C4AA-0561-D93742209006"/>
+</associations>
+</Column>
+<Column name="id_sort_fk" id="4FCFB654-7356-BBA7-00EC-8B6612E6C551">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:59 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="567204E8-324F-3CFA-CB05-A5FAC61C2B3B" referredColumn="57A9C7D9-B68C-ACE8-B681-90A41EBD439C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3F1F97A6-55CA-6E21-F108-B0CAA5E08D90" name="Wine Recipe_Wine Type_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:58:38 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F9DD8C8-C754-B4EE-F707-2D98899BD4BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA1DF81F-A40E-494A-5581-52DF65201CAC" name="Wine Recipe_Sort Grape_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:59 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FCFB654-7356-BBA7-00EC-8B6612E6C551"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
