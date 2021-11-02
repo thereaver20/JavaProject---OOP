@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6F96B11F-EE3B-E58A-9DD3-C45157F163D3" containerWithKeyObject="300E4C30-D6B3-C980-5AAF-238CD9ED6083" localFKIndex="4C7875F6-3729-6EAF-1877-314DD70DCB7A" name="Wine Type_Sort Grape_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-02 07:13:56 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<referredTableLongName>Sort Grape</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>42A63A79-6DC5-FC78-B480-4C3C7E031224</referredTableID>
+<keyObject>86729600-C502-C68A-0FB1-67E1B2D69F14</keyObject>
+<referredKeyID>86729600-C502-C68A-0FB1-67E1B2D69F14</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_sort</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

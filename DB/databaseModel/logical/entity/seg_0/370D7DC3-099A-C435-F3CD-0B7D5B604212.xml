@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="370D7DC3-099A-C435-F3CD-0B7D5B604212" name="Bottled Wine">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>36B83D46-EDD9-454C-5DCE-3C4D65FEF233</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bottles count" id="C3254269-EE2C-B0ED-C05F-133172FA6DDC">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>47388E73-8233-7ED4-9A8D-5FCBD8F4D826</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="007CBD0E-AE1D-4266-54AA-D782BA66C2AD">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>ABBA3C46-EDCC-C8A1-BE59-969E41E71804</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id bottle type fk" id="DED30027-8822-9B9A-ED9C-1CE16A467FCA">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>2BB39BBC-A0E2-8960-B060-C6F9B5B16558</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<referedAttribute>7DE46904-E5BE-EE45-B441-275A7F8B24F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id recipe fk" id="A3B63A56-1DB4-3C7F-6B9E-E9DA310CB265">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>122418EF-8087-EFE7-7D4C-3D1BE1638B4B</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<referedAttribute>3BBCBDD5-437C-481B-8A4E-8802E0952CCB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

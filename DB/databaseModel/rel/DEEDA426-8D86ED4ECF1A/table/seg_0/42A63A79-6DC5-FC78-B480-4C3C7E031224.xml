@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="42A63A79-6DC5-FC78-B480-4C3C7E031224" name="Sort Grape">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:59:15 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sort" id="57A9C7D9-B68C-ACE8-B681-90A41EBD439C">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="amount_liquid" id="67A0A57F-3697-B547-3109-073884FE6C89">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="available_quantity" id="1EACB011-1C1A-1C5A-DF62-13BCB940BFAA">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="FBB9B4F0-4B48-F62F-D0F7-FEA3F0F8FA9B">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_category_fk" id="8BA2E7FF-1A1F-D99F-E32D-6B4DA95E84AF">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:02:13 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59467841-280C-8663-BCC6-3F2738593B84" referredColumn="2E5BCD26-1CC1-FA30-FFAA-7C42BA8D6CFE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86729600-C502-C68A-0FB1-67E1B2D69F14" name="Sort Grape_PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:00:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57A9C7D9-B68C-ACE8-B681-90A41EBD439C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="62F26B56-0B35-4DF6-D299-FF5D3F7494B2" name="Sort Grape_Category Grape_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:02:13 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BA2E7FF-1A1F-D99F-E32D-6B4DA95E84AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
