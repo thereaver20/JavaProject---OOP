@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Wine Recipe_Wine Type_FK" directorySegmentName="seg_0" id="6881E5EB-22E1-FA57-3475-EBD9A2A9AADC">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-02 11:09:37 UTC</createdTime>
+<generatorID>A2DFFA72-787D-B370-777C-A99D7D9C1404</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<sourcePk>EFAAE640-3F5F-80AF-0D84-6E5DA1FC778A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BABBD208-511A-63B8-191A-28CA552BA665</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A4FEC564-5D88-BC83-A353-809AD7FDCDD4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

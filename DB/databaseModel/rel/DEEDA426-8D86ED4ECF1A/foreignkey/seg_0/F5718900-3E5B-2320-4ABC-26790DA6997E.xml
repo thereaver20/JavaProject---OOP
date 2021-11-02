@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F5718900-3E5B-2320-4ABC-26790DA6997E" containerWithKeyObject="36B83D46-EDD9-454C-5DCE-3C4D65FEF233" localFKIndex="7A44C792-F628-4667-91F9-E7EB717BBFB8" name="Bottled Wine_Bottles_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:51:59 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<referredTableLongName>Bottles</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F23BB1CE-BEA6-CB60-4255-81EFF484ACBA</referredTableID>
+<keyObject>DCC94128-4D17-66F7-7D1A-F55D743F15BF</keyObject>
+<referredKeyID>DCC94128-4D17-66F7-7D1A-F55D743F15BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_bottle_type</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EF83408-E995-E0FC-870A-C650E264E8CD" name="Users">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:03:49 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="user_id" id="C43BE740-4561-A64C-75A3-49C12518D945">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:05:08 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="27504144-E2DA-1F8D-5CEE-7FC04447A993">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:05:08 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="293A6905-864B-8EF4-16B5-9A2554642680">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:05:08 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="type_id_fk" id="AB815219-241E-6DCF-26DB-A67906141C77">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:07:17 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4135B5B-FF47-7A15-9C59-AC00F2D288F5" referredColumn="E21A07BE-F3AE-4D32-E4F9-FA34C879C168"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E492B74F-AC91-0D5B-44B7-E34952285A55" name="Users_PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:05:08 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C43BE740-4561-A64C-75A3-49C12518D945"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6BD579A8-C7D8-12D7-37FE-284A1A020DE3" name="Users_Users Types_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:07:17 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB815219-241E-6DCF-26DB-A67906141C77"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

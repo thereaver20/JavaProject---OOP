@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F23BB1CE-BEA6-CB60-4255-81EFF484ACBA" name="Bottles">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:41:32 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_bottle_type" id="8E11707D-D7CF-2745-A7C1-6FB91C74E0AF">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:48:34 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacity_of_bottle" id="C424A358-9E36-C5D3-B4AF-DCA05868824E">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:48:34 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="available_quantity" id="2055F864-F859-B68D-71F6-32BFB3F4A985">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:48:34 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="D1998D5B-1046-0811-AF42-785FD651A7ED">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:48:34 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCC94128-4D17-66F7-7D1A-F55D743F15BF" name="Bottles_PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:48:34 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E11707D-D7CF-2745-A7C1-6FB91C74E0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0688CF8E-5E56-C9A3-27F7-51F25BCE16B2" name="Sort Grape">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>42A63A79-6DC5-FC78-B480-4C3C7E031224</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id sort" id="8464DCF7-F652-0734-01D0-F07A5427B7B3">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>57A9C7D9-B68C-ACE8-B681-90A41EBD439C</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="amount liquid" id="E511D123-1E97-F5CF-5246-590D22914707">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>67A0A57F-3697-B547-3109-073884FE6C89</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="available quantity" id="06E3D258-532F-DB6E-EBCF-92CAB5C1466D">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>1EACB011-1C1A-1C5A-DF62-13BCB940BFAA</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date" id="4FF94345-CC71-4F2B-59C3-91A2D480F446">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>FBB9B4F0-4B48-F62F-D0F7-FEA3F0F8FA9B</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id category fk" id="AA74006E-B2E9-7C8B-2399-9AB398987C22">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>96B58E3A-8B7C-AB53-A009-2F4D866B74AB</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<referedAttribute>335C68F0-44B4-4B57-FAEC-7EFA90AECCC2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="57313E65-7AB3-1D01-B2CC-FCE40A8E9E86" name="Sort Grape PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>86729600-C502-C68A-0FB1-67E1B2D69F14</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8464DCF7-F652-0734-01D0-F07A5427B7B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

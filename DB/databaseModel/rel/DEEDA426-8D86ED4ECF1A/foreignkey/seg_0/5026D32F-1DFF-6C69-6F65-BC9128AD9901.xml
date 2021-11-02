@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5026D32F-1DFF-6C69-6F65-BC9128AD9901" containerWithKeyObject="36B83D46-EDD9-454C-5DCE-3C4D65FEF233" localFKIndex="AE5CBB7C-1166-EA30-CBC7-0FDB10143EC8" name="Bottled Wine_Wine Type_FK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 18:55:51 UTC</createdTime>
+<ownerDesignName>databaseModel</ownerDesignName>
+<referredTableLongName>Wine Type</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>300E4C30-D6B3-C980-5AAF-238CD9ED6083</referredTableID>
+<keyObject>B2DF4E67-3589-EF32-0D5D-B4185FB04F8A</keyObject>
+<referredKeyID>B2DF4E67-3589-EF32-0D5D-B4185FB04F8A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_recipe</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BABBD208-511A-63B8-191A-28CA552BA665" name="Wine Type">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>300E4C30-D6B3-C980-5AAF-238CD9ED6083</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id recipe" id="3BBCBDD5-437C-481B-8A4E-8802E0952CCB">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>7DED1E7B-885E-C4AA-0561-D93742209006</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="E4F4B52C-9015-36E8-7206-87584D1CCE63">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>4E963083-FD46-9AD7-F0CC-53B3CC8A7FB8</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="available quantity in barrels" id="03064ADC-D545-8681-447B-11769BFE8499">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>1EE97944-3C34-14BE-882F-FEE5728304E5</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id sort fk" id="3CB158CA-D914-2A4E-DE77-116EC2606CC1">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-02 07:14:40 UTC</createdTime>
+<generatorID>4AFA1A6E-9CEF-BEBB-5177-59329BCF893E</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<referedAttribute>8464DCF7-F652-0734-01D0-F07A5427B7B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obtained quantity by dose" id="30374551-218B-7146-DB6A-750765779743">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-02 11:09:37 UTC</createdTime>
+<generatorID>47618E09-01D4-8A5C-1C08-66A0DC3B9443</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EFAAE640-3F5F-80AF-0D84-6E5DA1FC778A" name="Wine Type PK">
+<createdBy>Nikola Slavchev</createdBy>
+<createdTime>2021-11-01 19:08:02 UTC</createdTime>
+<generatorID>B2DF4E67-3589-EF32-0D5D-B4185FB04F8A</generatorID>
+<ownerDesignName>databaseModel</ownerDesignName>
+<engineerTo>
+<item key="DEEDA426-EAB0-0A44-34BF-8D86ED4ECF1A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3BBCBDD5-437C-481B-8A4E-8802E0952CCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
